@@ -8,3 +8,95 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+
+.blue{
+   background-color: #386791;
+   height: 1em;
+   font-size: 300px;
+}
+
+.phones{
+  position: absolute;
+  margin-top: -4cm;
+  margin-left: 3cm;
+}
+
+
+.heat{
+  display: flex;
+  margin-top: -4cm;
+  align-items: center;
+  
+}
+
+.all{
+  margin-left: 16cm;
+  flex-direction: column;
+}
+
+.whitebox{
+
+background-image: url(/images/frame.png);
+background-size: 650px;
+background-repeat: no-repeat;
+margin-right: 4cm;
+padding: 1.5cm;
+width: 80%;
+}
+
+.btn{
+  margin-left: 13%;
+  background-image: url(/images/home.png);
+  background-repeat: no-repeat;
+  background-position: 7% 50%;
+  display: flex;
+  width: 3.3cm;
+  height: 1.3cm;
+  background-color: #386791;
+  color: white;
+  justify-content: space-between;
+  border-radius: 3px;
+  border-color: #1b4468;
+  box-shadow: darkblue;
+  border-width: thin;
+  display: inline-block;
+  font-size: 18px;
+  padding-left:5mm;
+}
+
+footer{
+  margin-top: 2cm;
+  text-align: center;
+  text-transform: uppercase;
+  color: #164e80;
+  font-size: smaller;
+  font-weight: bolder;
+
+
+}
+
+h2{
+  font-size: medium;
+  width: 70%;
+  font-weight: 400;
+  letter-spacing: 0.2mm;
+
+}
+
+h1{
+
+  width: 60%;
+  color: #164e80;
+
+}
+
+.black{
+  display: flex;
+  margin-top: 6mm;
+
+}
+
+.iphone{
+  margin-left: 5mm;
+}
